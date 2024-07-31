@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>JS Module || IFFE</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="heading-one">Loading...</h1>
+
+      <form>
+        <label for="input-element" class="input-label">Remember me!</label>
+
+        <div class="grid-wrapper">
+          <input
+            type="text"
+            class="input-element"
+            id="input-element"
+            name="input-element"
+            placeholder="Item"
+          />
+
+          <input
+            type="number"
+            class="input-element"
+            id="input-number"
+            name="input-element"
+            placeholder="$100"
+          />
+        </div>
+
+        <button class="btn accent-clr ntr-clr" id="btn-send">Save</button>
+      </form>
+
+      <div class="total-amount-wrapper">
+        <p id="total-amount" class="text-center total-amount-text">0</p>
+      </div>
+
+      <ul class="lists" id="list-parent"></ul>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
